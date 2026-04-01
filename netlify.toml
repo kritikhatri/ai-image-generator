@@ -3,12 +3,6 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/api/hf/*"
-  to = "https://router.huggingface.co/hf-inference/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

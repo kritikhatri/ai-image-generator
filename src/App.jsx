@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const HF_API_URL = "/api/hf/models/stabilityai/stable-diffusion-xl-base-1.0";
+const HF_API_URL = "https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0";
 const EXAMPLES = [
   "A futuristic city at sunset, cyberpunk style",
   "A cute baby dragon playing with fire",
