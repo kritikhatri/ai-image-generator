@@ -33,6 +33,7 @@ function App() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Accept": "image/jpeg",
           "Authorization": `Bearer ${hfToken}`
         },
         body: JSON.stringify({ inputs: prompt }),
